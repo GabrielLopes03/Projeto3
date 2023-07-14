@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Victor+Mono:wght@500&display=swap');
+
+#meu_menu{/* Abertura do id meu_menu */
+    text-align: right;
+    padding-right: 60px;
+    border-bottom: solid;
+    font-size: 25px;
+    font-family: 'Victor Mono', monospace;
+}/* fechamento do id meu_menu */
+#meu_menu a{
+    text-decoration: none;
+    color: #0082de;
+}
+#meu_menu a:hover{
+    color: #000000;
+    background-color: #79a7c1;
+    transition: 0.8s;
+    border-radius: 5px;
+}
+
+.titulo{
+    text-align: center;
+    background-color: #79a7c1;
+    border-style: double;
+    font-size: 25px;
+}
+
+#fundo{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 25%;
+}
+
+.master{
+    display: flex;
+}
+
+.col_esquerda{
+    margin-right: 30px;
+    text-align: justify;
+}
+
+.col_direita{
+    text-align: justify;
+}
+
+.titulo_col{
+    text-align: center;
+    background-color: #79a7c1;
+}
